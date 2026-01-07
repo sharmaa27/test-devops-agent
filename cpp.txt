@@ -1,4 +1,4 @@
-changes need to be done again
+cpp
 #include <iostream>
 using namespace std;
 
@@ -6,7 +6,7 @@ int main() {
     int a;
     cout << "Enter number: ";
     cin >> a;
-    if(a = 10) {   // ❌ Bug: using '=' instead of '=='
+    if(a == 10) {
         cout << "Number is 10";
     }
 }
